@@ -51,8 +51,12 @@ Top features impacting song popularity:
     !pip install xgboost lightgbm shap scikit-learn pandas matplotlib seaborn
     ````
 
+---
+
 ## Project Structure
 ![image](https://github.com/user-attachments/assets/7dea625b-1556-4139-8980-8adee05fb4cb)
+
+---
 
 ## Libraries required
 - pandas
@@ -64,6 +68,8 @@ Top features impacting song popularity:
 - matplotlib
 - seaborn
 - joblib
+
+---
 
 ## SHAP Explainability
 - We used SHAP (SHapley Additive exPlanations) to understand feature importance in predictions.
@@ -80,6 +86,8 @@ Top features impacting song popularity:
       shap_values = explainer(X_test)
       shap.plots.beeswarm(shap_values)
       ````
+
+---
 
 ## Model Saving & Reuse
 - ````
